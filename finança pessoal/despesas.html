@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Despesa</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+        table, td, tr{
+            border: 1px black solid;
+        }
+        input[type="text"]{
+            width: 96%;
+        }
+    </style>
+</head>
+<form action="">
+    <table>
+        <thead>
+            <td colspan="2">
+                <h1>Cadastro de Despesas</h1>
+            </td>            
+        </thead>
+            <tr>
+                <td>Nome</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Valor</td>
+                <td><input placeholder="R$00,00" type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button>Cadastrar</button></td>
+            </tr>
+    </table>
+</form>
